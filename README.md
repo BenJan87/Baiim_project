@@ -8,7 +8,7 @@
 
 
        Wprowadzenie 
->cel, przedmiot i zakres demonstracji
+→cel, przedmiot i zakres demonstracji
 
        Część teoretyczna
 ▶ źródła bibliograficzne
