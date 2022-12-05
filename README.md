@@ -1,11 +1,15 @@
 # Baiim project
 - [prezka z zasadami](https://upel.agh.edu.pl/pluginfile.php/119167/mod_resource/content/1/BAWiM_wyklad_inauguracyjny_2022.pdf)
 
--Plan roboty bombelki:
-1. Jakas teoria by się zdała - forma prezentacji 
-2. Strona internetowa
-3. Konspekt demonstracji projektu (markdown)
-4. 
+- Plan roboty bombelki:
+1. Konspekt demonstracji projektu (markdown)
+2. Jakas teoria by się zdała - forma prezentacji (powerpoint)
+3. Quiz do teorii
+4. Strona internetowa (Adusia zrobi)
+5. Zadanie praktyczne ??
+6. Instrukcje do zadania(ń)
+7. Rozwiązania do zadań 
+8. 
 
 
        Wprowadzenie 
