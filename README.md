@@ -1,15 +1,14 @@
 # Baiim project
-
-- [Docs](https://docs.google.com/document/d/1jCVfjl0T-Gn6THWZsAoMLaG7SO64Za2U8oEYFp1b6tM/edit?usp=sharing) który ładnie edytujemy, żeby coś mieć!
 - [prezka z zasadami](https://upel.agh.edu.pl/pluginfile.php/119167/mod_resource/content/1/BAWiM_wyklad_inauguracyjny_2022.pdf)
-Plan roboty bombelki:
+
+-Plan roboty bombelki:
 1. Jakas teoria by się zdała - forma prezentacji
 2. Konspekt demonstracji projektu.
 3. 
 
 ----------------------------------------------------------------------------------
        Część teoretyczna
-▶ źródła bibliograficzne!
+▶ źródła bibliograficzne
 ▶ Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL
 
        Część praktyczna
