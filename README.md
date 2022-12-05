@@ -3,8 +3,9 @@
 
 -Plan roboty bombelki:
 1. Jakas teoria by się zdała - forma prezentacji
-2. Konspekt demonstracji projektu.
-3. 
+       - Konspekt demonstracji projektu.
+2.Praktyka
+       - 
 
 
        Wprowadzenie 
