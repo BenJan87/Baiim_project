@@ -6,8 +6,9 @@
 2. Konspekt demonstracji projektu.
 3. 
 
-----------------------------------------------------------------------------------
-       Wprowadzenie (cel, przedmiot i zakres demonstracji)
+
+       Wprowadzenie 
+>cel, przedmiot i zakres demonstracji
 
        Część teoretyczna
 ▶ źródła bibliograficzne
