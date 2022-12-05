@@ -2,10 +2,10 @@
 - [prezka z zasadami](https://upel.agh.edu.pl/pluginfile.php/119167/mod_resource/content/1/BAWiM_wyklad_inauguracyjny_2022.pdf)
 
 -Plan roboty bombelki:
-1. Jakas teoria by się zdała - forma prezentacji
-       - Konspekt demonstracji projektu.
-2.Praktyka
-       - 
+1. Jakas teoria by się zdała - forma prezentacji 
+2. Strona internetowa
+3. Konspekt demonstracji projektu (markdown)
+4. 
 
 
        Wprowadzenie 
