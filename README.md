@@ -13,21 +13,21 @@
        Część teoretyczna (30%)
 →  źródła bibliograficzne (5%)
 
-→  Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL (10%)
+→  Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL (10%)  (termin 5%, sposób prowadzenia 10%)
 
-       Część praktyczna
-→  zadania/ćwiczenia praktyczne dla uczestników wraz z instrukcjami
+       Część praktyczna (40%)
+→  zadania/ćwiczenia praktyczne dla uczestników wraz z instrukcjami (15%)
 
-→  szczegółowe instrukcje jak przygotować środowisko
+→  szczegółowe instrukcje jak przygotować środowisko (15%)
 
-→  w repozytorium instrukcje i treść zadań dla uczestników demonstracji
+→  w repozytorium instrukcje i treść zadań dla uczestników demonstracji  (10% sposób prowadzenia)
 
 → Kilka dni przed zdalnym spotkaniem (około tydzień przez demonstracją to spotkanie): przesłanie przygotowanych materiałów prezentacji 
 (+ link do repo z instrukcją oraz rozwiązaniami).
 
 → Czas trwania demonstracji projektu: 1,5 h
 
-→  60 minut na część praktyczną!!!
+→  60 minut na część praktyczną!!!  
 
 - To zgłosiliśmy:
 
