@@ -8,25 +8,24 @@
 
 
        Wprowadzenie 
-→cel, przedmiot i zakres demonstracji
+→ cel, przedmiot i zakres demonstracji
 
-       Część teoretyczna
-▶ źródła bibliograficzne
-▶ Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL
+       Część teoretyczna (30%)
+→  źródła bibliograficzne (5%)
+→  Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL (10%)
 
        Część praktyczna
-▶ zadania/ćwiczenia praktyczne dla uczestników wraz z instrukcjami
-▶ szczegółowe instrukcje jak przygotować środowisko
-▶ w repozytorium instrukcje i treść zadań dla uczestników demonstracji
+→  zadania/ćwiczenia praktyczne dla uczestników wraz z instrukcjami
+→  szczegółowe instrukcje jak przygotować środowisko
+→  w repozytorium instrukcje i treść zadań dla uczestników demonstracji
 
-Przesłanie przygotowanych materiałów prezentacji (w tym linku do repozytorium z
-instrukcją oraz rozwiązaniami) co najmniej kilka dni przed zdalnym spotkaniem.
+→ Kilka dni przed zdalnym spotkaniem (około tydzień przez demonstracją to spotkanie): przesłanie przygotowanych materiałów prezentacji 
+(+ link do repo z instrukcją oraz rozwiązaniami).
 
-▶ Krótkie zdalne spotkanie ze mną co najmniej tydzień przed terminem
-demonstracji, aby skonsultować przygotowaną demonstrację.
-▶ Czas trwania demonstracji projektu: 1,5 h
-▶ w tym min. 60 minut na część praktyczną dla uczestników demonstracji
-----------------------------------------------------------------------------------
+→ Czas trwania demonstracji projektu: 1,5 h
+→  60 minut na część praktyczną!!!
+
+- To zgłosiliśmy:
 
 1. Cel projektu: 
 Wyjaśnienie zastosowania i działania uwierzytelniania dwuskładnikowego lub wieloskładnikowego. Pokazanie,
