@@ -5,11 +5,10 @@
 1. Konspekt demonstracji projektu (markdown)
 2. Jakas teoria by się zdała - forma prezentacji (powerpoint)
 3. Quiz do teorii
-4. Strona internetowa (Adusia zrobi)
+4. Strona internetowa 
 5. Zadanie praktyczne ??
 6. Instrukcje do zadania(ń)
 7. Rozwiązania do zadań 
-8. 
 
 
        Wprowadzenie 
