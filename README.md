@@ -7,6 +7,8 @@
 3. 
 
 ----------------------------------------------------------------------------------
+       Wprowadzenie (cel, przedmiot i zakres demonstracji)
+
        Część teoretyczna
 ▶ źródła bibliograficzne
 ▶ Quiz do części teoretycznej 5 pytań testowych wielokrotnego wyboru – na UPEL
