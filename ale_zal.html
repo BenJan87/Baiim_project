@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logowanie i rejestracja użytkowników</title>
+</head>
+<body>
+  <h1>Logowanie</h1>
+  <form action="/login" method="post">
+    <label for="username"> Nazwa użytkownika:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password"> Hasło:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Zaloguj się">
+  </form> 
+  <br>
+  <h1>Rejestracja</h1>
+  <form action="/register" method="post">
+    <label for="username"> Nazwa użytkownika:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="email"> Adres e-mail:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password"> Hasło:</label><br>
+    <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Hasło musi zawierać co najmniej jedną cyfrę, jedną małą i jedną dużą literę oraz mieć co najmniej 8 znaków"><br>
+    <label for="password_confirmation"> Potwierdź hasło:</label><br>
+    <input type="password" id="password_confirmation" name="password_confirmation" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Hasło musi zawierać co najmniej jedną cyfrę, jedną małą i jedną dużą literę oraz mieć co najmniej 8 znaków"><br><br>
+    <input type="submit" value="Zarejestruj się">
+  </form> 
+  <script>
+    // Funkcja do zaszyfrowania hasła
+    function hashPassword(password) {
+      // Tworzymy instancję bcrypt
+      const bcrypt = require('bcrypt');
+      // Generujemy sol (sól haszującą)
+      const salt = bcrypt.genSaltSync(10);
+      // Zaszyfrowane hasło
+      const hashedPassword = bcrypt.hashSync(password, salt);
+      return hashedPassword;
+    }
+    // Przykład użycia funkcji
+    const password = "moje_haslo123";
+    const hashedPassword = hashPassword(password);
+    console.log(hashedPassword); // Zwróci zaszyfrowane hasło
+  </script>
+</body>
+</html>
