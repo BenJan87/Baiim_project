@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <h2>New user</h2>
+            <form action="" method="POST" onsubmit="return checkInputs()">
+                <input type="email" name="new_username" placeholder="Username">
+                <input type="password" id='new_password' name="new_password" placeholder="Password">
+                <input type="password" id="repeat_password" name="repeat_password" placeholder="Repeat Password">
+                <input type="submit" value="login">
+                
+                <script>
+                    function checkInputs() {
+                        // Get the password and repeat password inputs
+                        const newPassword = document.getElementById('new_password').value;
+                        const repeatPassword = document.getElementById('repeat_password').value;
+
+                        // Check if the passwords are the same
+                        if (newPassword === repeatPassword) {
+                        // The passwords are the same, allow the form to be submitted
+                        return true;
+                        } else {
+                        // The passwords are not the same, prevent the form from being submitted
+                        alert('The passwords do not match');
+                        return false;
+                        }
+                    }
+                </script>
+            </form>
+        </div>
+    </body>
+</html>
