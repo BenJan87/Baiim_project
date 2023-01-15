@@ -1,21 +1,21 @@
 import hashlib
 import hmac
 import random
-import string
 import time
 
 random.seed('123')
 
-key = ''.join(random.choices(string.ascii_uppercase + string.digits, k=20))
-hotp_counter = 1
-time_step_size = 15
+# key = ''.join(random.choices(string.ascii_uppercase + string.digits, k=20))
+key = 'F1SE4O60DXAY0AQSGPUH'
+hotp_counter = 0
+time_step_size = 30
 
 def print_key(key):
     print(f'{key[0:5]} {key[5:10]} {key[10:15]} {key[15:20]}')
 
 
 def otp(key: str, msg):
-    otp = int.from_bytes(hmac.new(key.encode(), str(msg).encode(), hashlib.sha256).digest())
+    otp = int.from_bytes(hmac.new(key.encode(), str(msg).encode(), hashlib.sha256).digest()[-4:])
     return otp % 10**6
 
 def hotp(key, msg):
