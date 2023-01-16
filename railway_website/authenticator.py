@@ -2,7 +2,6 @@ import hashlib
 import hmac
 import random
 import time
-from termcolor import colored
 import os
 
 random.seed('123')
