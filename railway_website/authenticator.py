@@ -1,10 +1,8 @@
 import hashlib
 import hmac
-<<<<<<< HEAD
 import random
 import time
-=======
->>>>>>> 3be26b708310c6fe39655f152da2223ef751cbfb
+
 import os
 import time
 
