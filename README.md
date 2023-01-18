@@ -16,7 +16,7 @@ Zapisz go, będzie potrzebny do programu *authenticator.py*.
 
 Kroki do wykonania zadania:
 
-- zarejestruj się na stronie (Nie trzeba podawać swoich maili, ani tmp maili. Można podać jakikolwiek, byle by go zapamiętać)
+- zarejestruj się na stronie (może być oczywiście nieprawdziwy mail)
 - zapisz klucz prywatny do pliku private_key.txt (*jest w repo*)
 - zaloguj się na stronie oraz zapisz flagę
 - uruchom *authenticator.py* (./railway_website/authenticator.py)
