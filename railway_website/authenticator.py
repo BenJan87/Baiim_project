@@ -1,8 +1,5 @@
 import hashlib
 import hmac
-import random
-import time
-
 import os
 import time
 
