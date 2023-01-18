@@ -1,11 +1,7 @@
 import hashlib
 import hmac
-import random
-import time
 import os
-
-random.seed('123')
-
+import time
 
 hotp_counter = 0
 time_step_size = 30
