@@ -1,4 +1,4 @@
-# Baiim project 2FA
+# Baiim project 2FA - exercise to do
 
 ## Instrukcja do strony internetowej
 
