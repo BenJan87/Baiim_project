@@ -109,9 +109,17 @@ app.post("/hotp-login", (req, res) => {
     hashPassword = hashString(passwd);
 
 
-    //otp function here
+    function otp(key, msg) {
+        const hash = Buffer.from(crypto
+            .createHmac('sha256', key)
+            .update(msg.toString())
+            .digest().slice(-4)).readUInt32BE(0, 4, true);
+        return (hash % 1000000).toString();
+    }
 
-    // hotp function here
+    function hotp(key, msg) { 
+        return otp(key, msg.toString(10));
+    }
 
 
     
@@ -163,9 +171,19 @@ app.post("/totp-login", (req, res) => {
 
 
 
-    // otp function here
+    function otp(key, msg) {
+        const hash = Buffer.from(crypto
+            .createHmac('sha256', key)
+            .update(msg.toString())
+            .digest().slice(-4)).readUInt32BE(0, 4, true);
+        return (hash % 1000000).toString();
+    }
 
-    //totp function here
+    function totp(key) {
+        const currentTime = Math.floor(Date.now() / 1000);
+        const timeStepSize = 30;   
+        return otp(key, Math.floor(currentTime / timeStepSize).toString(10));
+    }
   
 
 
@@ -205,10 +223,17 @@ app.post("/ocra-login", (req, res) => {
     hashPassword = hashString(passwd);
 
 
-    // otp function here
+    function otp(key, msg) {
+        const hash = Buffer.from(crypto
+            .createHmac('sha256', key)
+            .update(msg.toString())
+            .digest().slice(-4)).readUInt32BE(0, 4, true);
+        return (hash % 1000000).toString();
+    }
 
-
-    // ocra function here
+    function ocra(key, msg) { 
+        return otp(key, msg.toString(10));
+    }
 
 
 
